@@ -1,0 +1,12 @@
+Python QR Code Generator
+
+I use segno librarie for beautiful QR Code
+
+Step 1: Go to command line
+
+Step 2: paste it ( python -m pip install segno )
+	This package generate QR code
+
+Step 3: paste it ( python -m pip install pillow qrcode-artistic )
+	This package is used to rotate generated QR Code
+
