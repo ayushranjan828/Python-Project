@@ -1,4 +1,5 @@
 import segno
+# Input for QR Code development
 i = input("Enter your URL or Text: ")
 size = int(input("Enter Size of QR Code Picture: "))
 br = int(input("Enter Border Size of QR Code: "))
@@ -6,6 +7,7 @@ bg = input("Enter Background Colour of QR code: ")
 cl = input("Enter colour of QR code Pattern: ")
 qrbg = input("Enter QR Code Border colour: ")
 
+# Option asking for QR Code rotation
 opt = str(input("Did you want to rotate your QR code (YES/NO): "))
 
 if(opt == "YES"):
